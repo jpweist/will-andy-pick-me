@@ -1,3 +1,101 @@
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+
+}
+header {
+  display: block;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+h1 {
+  color: #2B4E80;
+  font-family: 'Cherry Swash', cursive;
+}
+
+main {
+  display: inline-flex;
+  height: 60vh;
+}
+button, input {
+  font-size: 1em;
+  border: none;
+  text-align: center;
+}
+article {
+}
+
+.questions-answers {
+  background: #E6ECF4 url("./assets/eight-ball.png") center center no-repeat;
+  background-size: 21%;
+  width: 50%;
+  text-align: center;
+  display: hidden;
+
+}
+.questions-answers-text {
+  background: #E6ECF4 ;
+  width: 50%;
+  text-align: center;
+}
+.eight-ball-img {
+  width: 43.7%;
+  margin: 7em 0;
+}
+.ask-question-button {
+  width: 90%;
+  background-color: #ffffff;
+  height: 3em;
+  margin: 0.7em 0;
+
+}
+.clear-button {
+  width: 5%;
+  height: 3em;
+  float: right;
+  margin: 34% 0 0 -5%;
+  background-color: #DE4841;
+  position: absolute;
+}
+.clear-button:disabled {
+  background-color: #D0CDCD;
+}
+.get-answer-button {
+  width: 90%;
+  background-color: #607AA0;
+  height: 3em;
+  color: #ffffff;
+}
+.get-answer-button:hover {
+  background-color: #1C3455;
+}
+.get-answer-button:disabled {
+  background-color: #607AA0;
+}
+.woody-section {
+  background: url(./assets/woody.png) center center no-repeat;
+  width: 50%;
+  background-size: 58%;
+}
+.woody-image {
+}
+.hidden {
+  display: none;
+}
+.hidden-input {
+
+}
+.hidden-output {
+
+}
 /* font-family: 'Open Sans', sans-serif; */
 /* font-family: 'Open Sans', sans-serif; */
 
